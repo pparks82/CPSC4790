@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow2</class>
+ <widget class="QMainWindow" name="MainWindow2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1092</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="league_editor_label">
+        <property name="font">
+         <font>
+          <family>Chalkduster</family>
+          <pointsize>50</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <underline>true</underline>
+         </font>
+        </property>
+        <property name="text">
+         <string>League Editor</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="listWidget"/>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="add_pushButton">
+            <property name="text">
+             <string>Add Team</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="edit_pushButton">
+            <property name="text">
+             <string>Edit Team</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_pushButton">
+            <property name="text">
+             <string>Delete Team</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="import_pushButton">
+            <property name="text">
+             <string>Import Teams</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="export_pushButton">
+            <property name="text">
+             <string>Export Teams</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="placeholderText">
+           <string>Team Name</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1092</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
